@@ -1,0 +1,44 @@
+.box{
+    width: 100vw;
+    height: 550px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    width: 400px;
+    height:400px ;
+    background: url("https://img.freepik.com/premium-photo/concept-communication-contact-us-customer-support-hotline-people-connect-business-hand-touching-virtual-screen-contact-icons-email-address-live-chat-with-internet-wifi_162459-2015.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: cover;
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+input{
+    margin-top: 30px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+    border:  2px solid blue;
+}
+button{
+    background-color: rgb(38, 236, 127);
+    color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}

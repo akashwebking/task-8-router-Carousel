@@ -1,0 +1,32 @@
+.navbar{
+    width: 100vw;
+    height: 60px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+li{
+    margin-right:60px;
+    font-size: 25px;
+}
+.logo{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: rgb(45, 32, 235);
+}
+a{
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    font-weight: 800;
+}
+/* li:hover{
+    border-bottom: 5px solid red;
+} */
